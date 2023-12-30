@@ -1,0 +1,27 @@
+#solar-system {
+  position: relative;
+  width: 800px;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#sun, #planet1, #planet2 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+#sun {
+  background-color: yellow;
+}
+
+#planet1 {
+  background-color: orange;
+}
+
+#planet2 {
+  background-color: red;
+}
